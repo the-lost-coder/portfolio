@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter (Headings) & Space Mono (Body/Code) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- AI/ML Tech Network Background -->
+    <canvas id="tech-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="glass-panel nav-panel">
+        <div class="nav-content">
+            <h1 class="logo">RK</h1>
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#activities">ACTIVITIES</a></li>
+                <li><a href="#certifications">CERTIFICATIONS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="hero section">
+        <div class="hero-container glass-panel reveal">
+            <div class="hero-text">
+                <h2>Hey! I'm<br><span class="highlight">Rahul Kumar</span></h2>
+                <p>I’m a B.Tech CSE student at GLA University, specializing in Artificial Intelligence and Machine Learning. I’m passionate about using AI to solve real-world problems and improve everyday experiences.</p>
+                <div class="hero-buttons">
+                    <a href="rahul_cvcv.pdf" download="Rahul_Kumar_Resume.pdf" class="mono-btn primary-btn">
+                        Download my resume!
+                    </a>
+                    <a href="#projects" class="mono-btn secondary-btn">
+                        View my work
+                    </a>
+                </div>
+            </div>
+            <div class="profile-image-container">
+                <div class="image-backdrop"></div>
+                <img src="pfp.jpeg" alt="Rahul Kumar" class="profile-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title reveal">Featured <span class="highlight">Projects</span></h2>
+        
+        <!-- Project Search Bar -->
+        <div class="search-wrapper reveal">
+            <div class="search-container glass-panel">
+                <i class="fas fa-search"></i>
+                <input type="text" id="project-search" placeholder="Search projects by name or tech stack..." class="glass-input">
+            </div>
+        </div>
+
+        <div class="project-grid">
+            
+            <!-- NEW: Sales Dashboard Project -->
+            <div class="project-card glass-panel reveal">
+                <h3>Sales Dashboard</h3>
+                <p class="tech-stack">Data Visualization | Web</p>
+                <p class="project-desc">A comprehensive dashboard analyzing and visualizing eSIM sales performance, metrics, and trends over the last month.</p>
+                <div class="project-links">
+                    <a href="https://sales-dashboard-iota-nine.vercel.app" target="_blank" class="mono-btn small-btn">Live Demo</a>
+                    <a href="https://github.com/the-lost-coder/sales_dashboard" target="_blank" class="mono-btn small-btn secondary-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Professional & Coding Activities Section -->
+    <section id="activities" class="section">
+        <h2 class="section-title reveal">My <span class="highlight">Activities</span></h2>
+        
+        <div class="activity-grid">
+            <!-- LeetCode Column -->
+            <div class="activity-card glass-panel reveal">
+                <div class="activity-header">
+                    <i class="fas fa-code branch-icon"></i>
+                    <h3>LeetCode Profile</h3>
+                </div>
+                <div class="activity-content">
+                    <div class="stat-row">
+                        <span class="stat-label">Problems Solved:</span>
+                        <span class="stat-value highlight">70+</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Contest Rating:</span>
+                        <span class="stat-value">1650 (Top 15%)</span>
+                    </div>
+                    <p class="activity-desc">Consistently practicing Data Structures and Algorithms to optimize problem-solving efficiency.</p>
+                </div>
+                <a href="https://leetcode.com/rahulkumar" target="_blank" class="mono-btn small-btn mt-auto">
+                    View Profile
+                </a>
+            </div>
+
+            <!-- LinkedIn Column -->
+            <div class="activity-card glass-panel reveal">
+                <div class="activity-header">
+                    <i class="fab fa-linkedin branch-icon"></i>
+                    <h3>LinkedIn Activity</h3>
+                </div>
+                <div class="activity-content">
+                    <div class="stat-row">
+                        <span class="stat-label">Network:</span>
+                        <span class="stat-value highlight">150+ Connections</span>
+                    </div>
+                    <div class="linkedin-post">
+                        <p>> "Thrilled to announce that I've just completed the AI For All certification by TCS iON!..."</p>
+                    </div>
+                </div>
+                <a href="https://linkedin.com/in/rahulkumar" target="_blank" class="mono-btn small-btn mt-auto">
+                    Let's Connect
+                </a>
+            </div>
+
+            <!-- GitHub Column -->
+            <div class="activity-card glass-panel reveal">
+                <div class="activity-header">
+                    <i class="fab fa-github branch-icon"></i>
+                    <h3>GitHub Profile</h3>
+                </div>
+                <div class="activity-content">
+                    <p class="activity-desc">Exploring open-source, managing version control, and building public repositories to sharpen my coding skills.</p>
+                </div>
+                <a href="https://github.com/the-lost-coder" target="_blank" class="mono-btn small-btn mt-auto">
+                    View GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2 class="section-title reveal">Licenses & <span class="highlight">Certifications</span></h2>
+        
+        <!-- Certifications Search Bar -->
+        <div class="search-wrapper reveal">
+            <div class="search-container glass-panel">
+                <i class="fas fa-search"></i>
+                <input type="text" id="cert-search" placeholder="Search certifications..." class="glass-input">
+            </div>
+        </div>
+
+        <div class="cert-grid">
+            
+            <div class="cert-card glass-panel reveal">
+                <div class="cert-header">
+                    <i class="fab fa-microsoft cert-icon"></i>
+                    <h3>Azure Fundamentals (AZ-900)</h3>
+                </div>
+                <p class="cert-issuer">Microsoft</p>
+                <p class="cert-importance">Validates a foundational understanding of cloud services and how those services are provided with Microsoft Azure. Issued May 18, 2026.</p>
+                <a href="assets/Azure%20Fundamentals.pdf" download="Azure_Fundamentals.pdf" target="_blank" class="mono-btn small-btn secondary-btn mt-auto">
+                    <i class="fas fa-file-pdf"></i> Download Credential
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-panel">
+        <p>&copy; 2026 Rahul Kumar. Built with intent.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
